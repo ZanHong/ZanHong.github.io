@@ -6,43 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <title>Contact</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>About Me</title>
 </head>
 
-<body class="d-flex flex-column h-100" style="
-      background-color: lightgray;
-      font-family: 'Times New Roman', Times, serif;
-    ">
+<body class="d-flex flex-column h-100">
   <header>
-    <nav class="px-md-4 mb-4 align-items-center bg-light border-bottom shadow-sm">
-      <section class="container" style="width: 100%;">
+    <nav class="px-md-4 mb-4 align-items-center border-bottom shadow-sm">
+      <section class="container">
         <section class="row">
-          <a class="my-0 mr-md-auto text-white bg-info p-3 px-1 text-center font-weight-bold col-md-auto">
-            <h4>Zan Hong Mok</h4>
+          <a class="my-0 mr-md-auto text-white p-3 px-1 text-center col-md-auto">
+            <h4 class="font-weight-bold">Zan Hong Mok</h4>
           </a>
           <section class="col-md-auto"></section>
-          <nav class="my-3 my-md-4 pr-0 text-center col-md-auto">
-            <a class="p-2 text-dark border-right" href="index.html">About</a>
-            <a class="p-2 text-dark border-right" href="portfolio.html">Portfolio</a>
-            <a class="p-2 text-dark" href="contact.html">Contact</a>
+          <nav class="my-3 my-md-4 pr-0 text-center col-md-auto" id="nav-menu">
+            <a class="p-2 font-weight-bold" href="index.html">About</a>
+            <a class="p-2 font-weight-bold" href="portfolio.html">Portfolio</a>
+            <a class="p-2 font-weight-bold" href="contact.html">Contact</a>
           </nav>
         </section>
       </section>
     </nav>
   </header>
 
-  <main class="container bg-light border shadow-sm py-md-4 px-md-4" style="width: 90%;">
+  <main class="container bg-light border shadow-lg py-md-4 px-md-4">
     <section class="row">
       <h4 class="text-info col-md-12 py-2 font-weight-bold">Contact</h4>
     </section>
-    <hr style="
-          height: 2px;
-          border-width: 0;
-          color: gray;
-          background-color: lightgray;
-          margin: 1px 0;
-        " />
-    <br />
+    <hr>
+    <br>
 
     <form>
       <div class="form-group">
@@ -58,14 +53,20 @@
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"
           placeholder="Ask me anything!"></textarea>
       </div>
-      <button type="submit" class="btn btn-info">Submit</button>
+      <button type="submit" class="btn btn-dark">Submit</button>
       <br /><br />
     </form>
   </main>
 
-  <footer class="footer mt-auto py-3 bg-dark border-top shadow-lg">
-    <section class="container">
-      <h6 class="text-light text-center"><small>&copy; Copyright</small></h6>
+  <footer class="footer mt-auto py-2 border-top shadow-lg">
+    <section class="container text-center mt-md-2">
+      <a href="https://www.facebook.com/zan.hong/" target="_blank"><i class="fab fa-facebook-f ml-md-2 mr-md-2"></i></a>
+      <a href="https://www.instagram.com/zanhong/" target="_blank"><i class="fab fa-instagram ml-md-2 mr-md-2"></i></a>
+      <a href="https://www.linkedin.com/in/zhmok/" target="_blank"><i
+          class="fab fa-linkedin-in ml-md-2 mr-md-2"></i></a>
+      <a href="https://github.com/ZanHong" target="_blank"><i class="fab fa-github ml-md-2 mr-md-2"></i></a>
+      <h6 class="text-light mt-md-2">&copy; 2020 | by <a href="https://github.com/ZanHong">Zan Hong
+          Mok</a></h6>
     </section>
   </footer>
 </body>

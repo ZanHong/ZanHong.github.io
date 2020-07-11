@@ -1,0 +1,60 @@
+body {
+    background-image: url("Images/leone-venter-VieM9BdZKFo-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    /* position: relative; */
+}
+
+header nav section {
+    width: 100%;
+}
+
+nav,
+nav section section #nav-menu,
+footer {
+    background: rgba(52, 58, 64, 0.95);
+}
+
+header nav section section a h4,
+header nav section section #nav-menu a,
+footer section h6 a {
+    color: #f1f1f1;
+}
+
+header nav section section #nav-menu a:hover,
+footer section h6 a:hover {
+    color: #0080ff;
+    text-decoration: none;
+}
+
+main {
+    border-radius: 10px;
+    font-size: 18px;
+    width: 90%;
+}
+
+hr {
+    height: 2px; 
+    border-width: 0; 
+    color: gray; 
+    background-color: lightgray; 
+    margin: 1px 0;
+}
+
+main section figure section {
+    transition: all .3s ease-in-out;
+}
+
+main section figure section:hover {
+    transform: scale(1.05);
+}
+
+footer section i {
+    color: #f1f1f1;
+    font-size: 30px;
+}
+
+footer section i:hover {
+    color: #0080ff;
+}
